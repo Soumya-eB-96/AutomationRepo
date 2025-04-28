@@ -12,7 +12,10 @@ public class WebElementCommands extends Base{
 		message.sendKeys("Hello");
 		message.clear();
 		WebElement showbutton = driver.findElement(By.xpath("//button[@id='button-one']"));
+		//System.out.println(showbutton.isDisplayed());
+		System.out.println(showbutton.isEnabled());
 		showbutton.click();
+		
 		WebElement messagedisplay = driver.findElement(By.xpath("//div[@id='message-one']"));
 		System.out.println(messagedisplay.getText());
 		WebElement checktag = driver.findElement(By.xpath("//input[@id='value-a']"));

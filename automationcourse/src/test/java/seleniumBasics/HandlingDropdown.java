@@ -19,8 +19,6 @@ public class HandlingDropdown extends Base{
 	    
 	}
 	
-	
-	
 
 	public static void main(String[] args) 
 	{
